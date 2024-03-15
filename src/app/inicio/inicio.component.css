@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi", sans-serif;
+}
+.principal{
+    min-height: 100vh;
+    background: url('../inicio/gatitofondo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.titulogatos{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-left: 160px;
+}
+
+.contenedor {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: 5px solid rgb(83, 23, 1);
+    width: 60%;
+    background: rgb(36,17,0);
+    background: linear-gradient(90deg, rgba(36,17,0,1) 16%, rgba(121,55,9,1) 92%); 
+    
+   }
+
+.contenedordos{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border: 5px solid black;
+    width: 60%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(121,9,121,1) 92%); 
+    
+}
+
+img{
+    max-width: 100%;
+    max-height:100%;
+    width: 1000px;
+    padding-left: 10px;
+}
+
+.gatosebas{
+    max-width: 100%;
+    max-height:100%;
+    width: 1000px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+  
+.texto{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.subtitulouno{
+    padding-left: 100px;
+    color: black;
+}
+
+.text{
+    font-size: 23px;
+    color: whitesmoke;
+    
+    
+}
+
+.formulario{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    width: 600px;
+    height: 50%;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+
+}
+
+.Pie{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+.container{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}

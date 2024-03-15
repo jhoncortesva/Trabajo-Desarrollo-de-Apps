@@ -1,0 +1,13 @@
+.fondomichis{
+    min-height: 100vh;
+    background: url('../tercerapagina/Fondogatones.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.Pie{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
