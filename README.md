@@ -1,27 +1,26 @@
-# Miproyecto
+# Página Gatos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+Se trata de una página sencilla y básica hasta donde puede llegar para demostrar de forma clara y sencilla como funciona una página Web corriendo en Angular.
 
-## Development server
+Está cargada con cuatro ventanas distintas:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Primera página INICIO
 
-## Code scaffolding
+Esta página cuenta con imagenes, estructura NAV y FOOTER además de un formulario básico importado a través de Bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Segunda página GATOTE
 
-## Build
+Este sitio web enseña un gato obeso pensado para enseñar la capacidad de definir un fondo a través de CSS que, utilizando un link, la imagen se posiciona fácil
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Tercera página MAS GATOS
 
-## Running unit tests
+Se han organizado un grupo de textos sobre un fondo mostrando la fácil capacidad de ubicar texto sobre una imagen repetidas veces organizandose de forma automática
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# CUarta página AQUÍ NO HAY GATOS
 
-## Running end-to-end tests
+Utilizando un gif como fondo, esta pagina enseña las capacidades de cargar gifs con Angular, mostrando un gracioso perrito con sobre peso
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# FALLAS Y CONCLUSIONES
 
-## Further help
+ANgular es potente, sin embargo, resulta complejo a la hora de implementar algunos recursos como audios: Al importar etiquetas de audio angular no sabe como interpretar archivos MP3 o OGG como lo haría un HTML5 común. Se intentó colocar audio con un video de YouTube que se reproduzca de forma automática, sin embargo, navegadores como FireFox impide esto al estar ligado a sus políticas de privacidad
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
